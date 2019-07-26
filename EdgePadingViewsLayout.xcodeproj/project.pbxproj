@@ -13,6 +13,7 @@
 		32F3284E22EA6F24006464F1 /* EdgePadingViewsLayout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32F3284C22EA6F24006464F1 /* EdgePadingViewsLayout.xcdatamodeld */; };
 		32F3285022EA6F28006464F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F3284F22EA6F28006464F1 /* Assets.xcassets */; };
 		32F3285322EA6F28006464F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F3285122EA6F28006464F1 /* LaunchScreen.storyboard */; };
+		32F3285F22EB0AE6006464F1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F3285E22EB0AE6006464F1 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		32F3284F22EA6F28006464F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32F3285222EA6F28006464F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32F3285422EA6F28006464F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F3285E22EB0AE6006464F1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				32F3284522EA6F24006464F1 /* AppDelegate.swift */,
+				32F3285E22EB0AE6006464F1 /* Extensions.swift */,
 				32F3284722EA6F24006464F1 /* ViewController.swift */,
 				32F3284922EA6F24006464F1 /* Main.storyboard */,
 				32F3284F22EA6F28006464F1 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32F3285F22EB0AE6006464F1 /* Extensions.swift in Sources */,
 				32F3284822EA6F24006464F1 /* ViewController.swift in Sources */,
 				32F3284622EA6F24006464F1 /* AppDelegate.swift in Sources */,
 				32F3284E22EA6F24006464F1 /* EdgePadingViewsLayout.xcdatamodeld in Sources */,
